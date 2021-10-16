@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) and (min-width: 601px)
+{
+    .nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .table{
+        grid-template-columns: .4fr .4fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+    .contact-info {
+        grid-template-columns: 100%;
+    }
+    
+}
