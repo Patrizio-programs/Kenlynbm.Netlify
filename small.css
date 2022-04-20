@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 606px) {
 
     .nav{
@@ -24,3 +25,31 @@
     flex-direction: column;
 }
 }
+=======
+@media screen and (max-width: 606px) {
+
+    .nav{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    img{ display: none;}
+ .personal-info {
+     grid-template-columns: 100%;
+ }
+.table{
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: auto;
+    width: 100%;
+
+}
+.contact-info {
+    grid-template-columns: 100%;
+}
+
+
+
+.references{
+    flex-direction: column;
+}
+}
+>>>>>>> 0fe2c5bdf9823bc1e913b2bc5d3e53036019709f
