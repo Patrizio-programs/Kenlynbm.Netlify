@@ -13,5 +13,15 @@
     .contact-info {
         grid-template-columns: 100%;
     }
+
+
+    
+
+    .references{
+    
+        flex-direction: column;
+       
+    }
     
 }
+
